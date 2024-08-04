@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.OrderChangeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.pojo.OrderChange">
+        <id column="id" property="id" />
+        <result column="old_start_time" property="oldStartTime" />
+        <result column="old_end_time" property="oldEndTime" />
+        <result column="old_total" property="oldTotal" />
+        <result column="change_order_id" property="changeOrderId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, old_start_time, old_end_time, old_total, change_order_id
+    </sql>
+
+</mapper>

@@ -1,0 +1,12 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: jdglxt
+    username: root
+    password: 15766541286
+  redis:
+    host: localhost
+    port: 6379
+    database: 10
